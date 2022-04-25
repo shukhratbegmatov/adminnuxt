@@ -1,0 +1,244 @@
+@font-face {
+  font-family: "Sofia";
+  src: url('../font/SofiaPro/SofiaProMedium.ttf');
+}
+@font-face {
+  font-family: "OpenSans";
+  src: url('../font/OpenSans/OpenSans-Medium.ttf');
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  overflow-x: hidden;
+}
+body{
+  background: rgb(250, 250, 252);
+}
+.login_page{
+  background: radial-gradient(204.29% 100% at 50% 0%, #3068FE 0%, #000E33 29.94%);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text{
+  font-family: 'Sofia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 42px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.login_name{
+  font-family: 'Sofia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 10px;
+  margin-bottom: 96px;
+}
+.login_name span{
+  opacity: 0.4;
+}
+.form_group label{
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #919EAD;
+  margin-top: 24px;
+}
+.input_group{
+  width: 360px;
+  height: 50px;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px rgba(0, 0, 0, 0.14), 0px 1px 5px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  padding: 13px 20px;
+}
+.input_group input{
+  width: 100%;
+  height: 100%;
+  background: none;
+  outline: none;
+  border: 0;
+}
+.input_group input::placeholder{
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #919EAD;
+}
+.sidebar{
+    width: 270px;
+    height: 100vh;
+    padding: 12px;
+    position: fixed;
+}
+.side_menus{
+  width: 100%;
+  height: 100%;
+  background: #000E33;
+  border-radius: 24px;
+  display: flex;
+  justify-content: center;
+}
+.side_logo{
+  display: flex;
+  justify-content: center;
+}
+.side_logo img{
+  margin-top: 12px;
+  width: 96px;
+}
+.border_gr{
+  margin-left: 14px;
+  width: 196px;
+  height: 2px;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 24.48%, #FFFFFF 50%, #FFFFFF 75.52%, rgba(255, 255, 255, 0) 100%, rgba(255, 255, 255, 0) 100%, rgba(255, 255, 255, 0) 100%);
+  border-radius: 2px;
+  margin-top: 12px;
+  margin-bottom: 60px;
+}
+.main_menus{
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FEFFFF;
+  width: 216px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  padding: 24px;
+  margin-top: 13px;
+
+}
+.main_menus svg{
+  margin-right: 40px;
+}
+.side_menus a{
+  text-decoration: none;
+}
+.main_menus:hover{
+  background: rgba(255, 255, 255, 0.24);
+  border-radius: 12px;
+}
+.img_avatar{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid #FFFFFF;
+  overflow: hidden;
+}
+.img_avatar img{
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+.menu_btn{
+  background: none;
+  border: 0;
+  outline: none;
+}
+.avatar_user{
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FEFFFF;
+}
+.avatar_text{
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+  color: #E9ECEF;
+}
+.menu_btn{
+  display: flex;
+  align-items: center;
+}
+.avatar_content{
+  text-align: left;
+  margin-left: 18px;
+}
+.avatar_position{
+  position: absolute;
+  bottom: 30px;
+}
+.sidebar_right{
+  width: 360px;
+  border-radius: 20px 0px 0px 20px;
+  background: #ffffff;
+  position: fixed;
+  right: -400px;
+  height: 100%;
+}
+.sidebar_right_navbar{
+  background: linear-gradient(90deg, #000E33 0%, #3068FE 100%);
+  border-radius: 20px 0px 0px 0px;
+  width: 100%;
+  height: 120px;
+  position: relative;
+}
+.avatar_img{
+  position: absolute;
+  top: 50%;
+  left: 24px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid #FFFFFF;
+}
+.avatar_img img{
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+.button_exit{
+
+  position: absolute;
+  bottom: 96px;
+  left: 96px;
+}
+
+.button_exit button{
+  width: 168px;
+  height: 48px;
+  background: #3068FE;
+  border-radius: 4px;
+  border: 0;
+  outline: none;
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFFFFF;
+
+}
+.exit_menuss{
+  width: 100vw;
+  height: 100vh;
+  background:rgba(148, 140, 140, 0.7);
+  z-index: 1;
+  position: fixed;
+}
