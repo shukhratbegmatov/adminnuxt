@@ -72,7 +72,7 @@
           </div>
           <div class="side_avatar">
             <div class="avatar_position">
-              <button class="menu_btn">
+              <button class="menu_btn" @click="isActive=true">
                 <div class="img_avatar">
                   <img src="../assets/img/avatar.png" alt="">
                 </div>
@@ -87,8 +87,8 @@
 
       </div>
     </div>
-    <div class="exit_menuss">
-      <div class="sidebar_right">
+    <div class="exit_menuss"  @click="isActive=false" :class="{'active':isActive==true}">
+      <div class="sidebar_right" :class="{'active':isActive==true}">
         <div class="sidebar_right_navbar">
           <div class="avatar_img">
             <img src="../assets/img/avatar.png" alt="">
@@ -102,3 +102,12 @@
     </div>
   </div>
 </template>
+<script>
+export default {
+  data(){
+    return{
+      isActive:false
+    }
+  }
+}
+</script>

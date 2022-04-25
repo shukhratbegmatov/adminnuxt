@@ -190,6 +190,7 @@ body{
   position: fixed;
   right: -400px;
   height: 100%;
+  transition: .4s;
 }
 .sidebar_right_navbar{
   background: linear-gradient(90deg, #000E33 0%, #3068FE 100%);
@@ -239,6 +240,15 @@ body{
   width: 100vw;
   height: 100vh;
   background:rgba(148, 140, 140, 0.7);
-  z-index: 1;
+  z-index: -3;
   position: fixed;
+
+}
+.exit_menuss.active{
+ opacity: 1;
+  z-index: 222;
+}
+.sidebar_right.active{
+  right: 0;
+  transition: .4s;
 }
