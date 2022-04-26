@@ -18,21 +18,106 @@ body{
   background: rgb(250, 250, 252);
 }
 .login_page{
-  background: radial-gradient(204.29% 100% at 50% 0%, #3068FE 0%, #000E33 29.94%);
   width: 100vw;
   height: 100vh;
+  background: url("../img/login_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.login_logo{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 180px;
+  justify-content: center;
+}
+.login_container{
+  height: 100%;
+}
+.login_container .row{
+  height: 100%;
+}
+
+.login_form_f{
+  height: 100%;
+  width: 100%;
+  padding: 12px;
+}
+.login_form_bg{
+  height: 100%;
+  background: radial-gradient(204.29% 100% at 50% 0%, #3068FE 0%, #000E33 29.94%);
+  border-radius: 24px;
+}
+.login_forms{
   display: flex;
   justify-content: center;
-  align-items: center;
+  height: 100%;
+  padding-top: 120px;
 }
-.text{
+.input_f{
+  display: flex;
+  align-items: center;
+  width: 360px;
+  height: 48px;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px rgba(0, 0, 0, 0.14), 0px 1px 5px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  margin-bottom: 24px;
+  padding-right: 14px;
+}
+.login_button{
+  text-align: center;
+  margin-top: 60px;
+}
+.login_button button{
+  width: 168px;
+  height: 48px;
+  background: #3068FE;
+  border-radius: 4px;
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border: 0;
+}
+.input_f input{
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border: 0;
+  background: none;
+  padding-left: 20px;
+}
+.input_f input::placeholder{
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.25px;
+  color: #919EAD;
+}
+.form_input_group label{
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #919EAD;
+  margin-bottom: 4px;
+
+}
+.login_title{
   font-family: 'Sofia';
   font-style: normal;
   font-weight: 400;
   font-size: 42px;
   line-height: 42px;
-  text-align: center;
   color: #FFFFFF;
+  text-align: center;
 }
 .login_name{
   font-family: 'Sofia';
@@ -40,47 +125,13 @@ body{
   font-weight: 400;
   font-size: 24px;
   line-height: 24px;
-  text-align: center;
   color: #FFFFFF;
-  margin-top: 10px;
-  margin-bottom: 96px;
+  text-align: center;
+  margin-top: 8px;
+  margin-bottom: 120px;
 }
 .login_name span{
   opacity: 0.4;
-}
-.form_group label{
-  font-family: 'OpenSans';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 22px;
-  color: #919EAD;
-  margin-top: 24px;
-}
-.input_group{
-  width: 360px;
-  height: 50px;
-  background: #FFFFFF;
-  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px rgba(0, 0, 0, 0.14), 0px 1px 5px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
-  display: flex;
-  align-items: center;
-  padding: 13px 20px;
-}
-.input_group input{
-  width: 100%;
-  height: 100%;
-  background: none;
-  outline: none;
-  border: 0;
-}
-.input_group input::placeholder{
-  font-family: 'OpenSans';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 22px;
-  color: #919EAD;
 }
 .sidebar{
     width: 270px;
@@ -125,7 +176,6 @@ body{
   display: flex;
   align-items: center;
   padding: 24px;
-  margin-top: 13px;
 
 }
 .main_menus svg{
@@ -135,6 +185,10 @@ body{
   text-decoration: none;
 }
 .main_menus:hover{
+  background: rgba(255, 255, 255, 0.24);
+  border-radius: 12px;
+}
+.main_menus.active{
   background: rgba(255, 255, 255, 0.24);
   border-radius: 12px;
 }
@@ -148,7 +202,8 @@ body{
 .img_avatar img{
   width: 100%;
   height: 100%;
-  object-fit: fill;
+  object-fit: cover;
+  object-position: center;
 }
 .menu_btn{
   background: none;
@@ -212,7 +267,8 @@ body{
 .avatar_img img{
   width: 100%;
   height: 100%;
-  object-fit: fill;
+  object-fit: cover;
+  object-position: center;
 }
 .button_exit{
 
@@ -242,6 +298,7 @@ body{
   background:rgba(148, 140, 140, 0.7);
   z-index: -3;
   position: fixed;
+  opacity: 0;
 
 }
 .exit_menuss.active{
@@ -250,5 +307,165 @@ body{
 }
 .sidebar_right.active{
   right: 0;
-  transition: .4s;
+  transition: 300ms;
+}
+.content_container{
+  padding-left: 280px;
+  padding-right: 12px;
+}
+.page_names{
+  padding-top: 24px;
+}
+.page_names .title{
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  color: #1F1F1F;
+
+}
+.page_names .description{
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #1F1F1F;
+}
+.section_title{
+  display: flex;
+  align-items: center;
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 36px;
+  color: #919EAD;
+  padding-top: 48px;
+}
+.section_title svg{
+  margin-left: 24px;
+}
+.section_cards{
+  background: #FEFFFF;
+  border-radius: 8px;
+  width: 100%;
+  height: 60px;
+  margin-top: 24px;
+  padding: 26px;
+  display: flex;
+  align-items: center;
+}
+.card_title{
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #919EAD;
+  margin-left: 14px;
+
+}
+.section_card_border{
+  display: flex;
+  justify-content: center;
+}
+
+.section_card_border div{
+  margin-top: 24px;
+  border-bottom: 1px solid #E9ECEF;
+  width: 98%;
+
+}
+.section_card a{
+  text-decoration: none;
+}
+.section_cards:hover{
+  background: #7399FE;
+  box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+}
+.section_cards:hover .card_title{
+  color: #FEFFFF;
+}
+.section_card a:focus .section_cards{
+  background: #3068FE;
+
+  box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+}
+.section_card a:focus  .card_title{
+  color: #FEFFFF;
+}
+.page_names a{
+  text-decoration: none;
+}
+.lang_title{
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #919EAD;
+
+}
+.create_museum{
+  margin-top: 48px;
+}
+.museum_lang{
+  display: flex;
+  align-items: center;
+}
+.multuple_lang{
+  margin-left: 52px;
+  position: relative;
+}
+.multuple_lang button{
+  background: none;
+  outline: none;
+  border: 0;
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #919EAD;
+}
+.multuple_lang button svg{
+  margin-left: 8px;
+}
+.drop_menu{
+  background: #FFFFFF;
+  /* Card elevating */
+  position: absolute;
+  border-radius: 8px;
+  width: 168px;
+  max-height: 0;
+  transition: max-height 0.15s ease-out;
+  overflow: hidden;
+
+  top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.drop_menu button{
+  margin-top: 12px;
+  position: relative;
+}
+
+.drop_menu button svg{
+  margin-left: 0;
+  margin-right: 12px;
+  position: absolute;
+  left: -25px;
+  top: 8px;
+}
+
+.drop_menu button.active{
+  color: #3068FE;
+
+}
+.drop_menu.active{
+  max-height: 172px;
+  box-shadow: 0px 5px 5px -3px rgb(0 0 0 / 20%), 0px 8px 10px 1px rgb(0 0 0 / 14%), 0px 3px 14px 2px rgb(0 0 0 / 12%);
 }
