@@ -99,8 +99,8 @@ export default {
           link:'contact'
         },
         {
-          name:'exponant',
-          link:'exponanat'
+          name:'exhibits',
+          link:'exhibits'
         }
       ],
     }

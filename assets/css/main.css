@@ -19,7 +19,7 @@ body{
 }
 .login_page{
   width: 100vw;
-  height: 100vh;
+  height: 103vh;
   background: url("../img/login_bg.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -502,8 +502,10 @@ body{
   line-height: 22px;
   color: #1F1F1F;
   padding-top: 24px;
+  margin-top: 24px;
 }
 .text_date span{
+  width:300px;
   font-family: 'OpenSans';
   font-style: normal;
   font-weight: 400;
@@ -1020,4 +1022,137 @@ background: #F63060;
   line-height: 22px;
   color: #919EAD;
   margin-top: 50px;
+}
+.docs_icons{
+  width: 168px;
+  height: 168px;
+  background: #E9ECEF;
+  border: 1px dashed #919EAD;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 24px;
+  cursor: pointer;
+}
+.text_docs{
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #919EAD;
+  margin-top: 16px;
+}
+.f_docs{
+  text-align: center;
+}
+.docs_f{
+  display: flex;
+  align-items: center;
+}
+.docs_slugs{
+  display: flex;
+  margin-left: 24px;
+  margin-top: 12px;
+}
+.docs_title{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.25px;
+  color: #919EAD;
+  width: 150px;
+}
+.docs_size{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.25px;
+  color: #1F1F1F;
+}
+.exhibits_text{
+  display: flex;
+  align-items: center;
+  margin-top: 48px;
+}
+.exhibits_title{
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 36px;
+  color: #3068FE;
+  border-bottom: 4px solid #3068FE;
+}
+.exhibits_desc{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.25px;
+  color: #919EAD;
+  margin-left: 24px;
+}
+.exhibits_count{
+  display: flex;
+  align-items: center;
+  margin-top: 48px;
+  margin-bottom: 24px;
+}
+.exhibits_count_one{
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.25px;
+  color: #919EAD;
+}
+.exhibits_count_two{
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.25px;
+  color: #1F1F1F;
+  margin-left: 90px;
+}
+.exhibits_button{
+  background: #FEFFFF;
+  border-radius: 8px;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  padding-left: 26px;
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.25px;
+  color: #919EAD;
+}
+.exhibits_button svg{
+  margin-right: 14px;
+}
+.exhibits_button:hover{
+  background: #7399FE;
+  box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);
+  color: #FEFFFF;
+}
+.exhibits_button:active{
+  background: #3068FE;
+  box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+  color: #FEFFFF;
 }
