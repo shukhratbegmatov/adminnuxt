@@ -344,6 +344,7 @@ body{
   line-height: 36px;
   color: #919EAD;
   padding-top: 48px;
+  width: 500px;
 }
 .section_title svg{
   margin-left: 24px;
@@ -470,6 +471,7 @@ body{
 .drop_menu.active{
   max-height: 172px;
   box-shadow: 0px 5px 5px -3px rgb(0 0 0 / 20%), 0px 8px 10px 1px rgb(0 0 0 / 14%), 0px 3px 14px 2px rgb(0 0 0 / 12%);
+  z-index: 2;
 }
 .text_card{
   background: #FEFFFF;
@@ -877,4 +879,145 @@ body{
 }
 .auth_photo_important .text_date{
   padding-top: 16px;
+}
+.contacts{
+  display: flex;
+  align-items: center;
+  margin-top: 48px;
+}
+.contacts .section_title{
+  padding-top: 0;
+}
+.input_contacts label{
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #919EAD;
+  margin-top: 24px;
+}
+.input_father{
+  background: #FFFFFF;
+  /* Input Shadow */
+
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px rgba(0, 0, 0, 0.14), 0px 1px 5px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  width: 100%;
+  height: 48px;
+  overflow: hidden;
+}
+.input_father input{
+  width: 100%;
+  height: 100%;
+  border: 0;
+  outline: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #919EAD;
+}
+
+.input_father textarea{
+  width: 100%;
+  height: 100%;
+  border: 0;
+  outline: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #919EAD;
+  padding-top: 20px;
+}
+.input_father input::placeholder{
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #919EAD;
+}
+.input_father textarea::placeholder{
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #919EAD;
+}
+.add_input{
+  display: flex;
+  align-items: center;
+}
+.add_input .add_btn{
+  width: 72px;
+  height: 48px;
+  background: #3068FE;
+  border-radius: 8px;
+  margin-left: 24px;
+}
+.add_btn.delete_btn{
+  background: #F63060;
+}
+.text_area_input{
+  height: 96px;
+}
+.add_forms{
+  background: #3068FE;
+  border-radius: 4px;
+  width: 264px;
+  height: 48px;
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+
+}
+.add_forms svg{
+  margin-right: 16px;
+}
+.add_forms_f{
+  text-align: right;
+}
+.add_forms.delete_forms_f{
+background: #F63060;
+}
+.v-application a{
+  background: #3068FE;
+  border-radius: 4px;
+  padding: 16px 66px;
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.25px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.v-application a svg{
+  margin-right: 14px;
+}
+.select_label{
+  font-family: 'OpenSans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #919EAD;
+  margin-top: 50px;
 }

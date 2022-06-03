@@ -84,15 +84,15 @@ export default {
         },
         {
           name:'Схема Музея',
-          link:'sexemamuseum'
+          link:'museum_map'
         },
         {
           name:'Партнеры',
-          link:'partnior'
+          link:'partners'
         },
         {
           name:'Вакансии',
-          link:'vacancy'
+          link:'vacancies'
         },
         {
           name:'Контакты',

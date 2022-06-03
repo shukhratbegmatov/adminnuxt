@@ -80,28 +80,341 @@
 
             </SectionTitle>
             <div class="date_auth">
-              <label>
-                День
-              </label>
-              <div>
-                <div>
-                  Выберите день рождения
-                </div>
-                <div>
 
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M16.7502 3.56V2C16.7502 1.59 16.4102 1.25 16.0002 1.25C15.5902 1.25 15.2502 1.59 15.2502 2V3.5H8.75023V2C8.75023 1.59 8.41023 1.25 8.00023 1.25C7.59023 1.25 7.25023 1.59 7.25023 2V3.56C4.55023 3.81 3.24023 5.42 3.04023 7.81C3.02023 8.1 3.26023 8.34 3.54023 8.34H20.4602C20.7502 8.34 20.9902 8.09 20.9602 7.81C20.7602 5.42 19.4502 3.81 16.7502 3.56Z" fill="#919EAD"/>
-                    <path d="M20 9.83984C20.55 9.83984 21 10.2898 21 10.8398V16.9998C21 19.9998 19.5 21.9998 16 21.9998H8C4.5 21.9998 3 19.9998 3 16.9998V10.8398C3 10.2898 3.45 9.83984 4 9.83984H20Z" fill="#919EAD"/>
-                    <path d="M8.5 14.9999C8.24 14.9999 7.98 14.8899 7.79 14.7099C7.61 14.5199 7.5 14.2599 7.5 13.9999C7.5 13.7399 7.61 13.4799 7.79 13.2899C8.07 13.0099 8.51 12.9199 8.88 13.0799C9.01 13.1299 9.12 13.1999 9.21 13.2899C9.39 13.4799 9.5 13.7399 9.5 13.9999C9.5 14.2599 9.39 14.5199 9.21 14.7099C9.02 14.8899 8.76 14.9999 8.5 14.9999Z" fill="#FEFFFF"/>
-                    <path d="M12 14.9999C11.74 14.9999 11.48 14.8899 11.29 14.7099C11.11 14.5199 11 14.2599 11 13.9999C11 13.7399 11.11 13.4799 11.29 13.2899C11.38 13.1999 11.49 13.1299 11.62 13.0799C11.99 12.9199 12.43 13.0099 12.71 13.2899C12.89 13.4799 13 13.7399 13 13.9999C13 14.2599 12.89 14.5199 12.71 14.7099C12.66 14.7499 12.61 14.7899 12.56 14.8299C12.5 14.8699 12.44 14.8999 12.38 14.9199C12.32 14.9499 12.26 14.9699 12.2 14.9799C12.13 14.9899 12.07 14.9999 12 14.9999Z" fill="#FEFFFF"/>
-                    <path d="M15.5 15C15.24 15 14.98 14.89 14.79 14.71C14.61 14.52 14.5 14.26 14.5 14C14.5 13.74 14.61 13.48 14.79 13.29C14.89 13.2 14.99 13.13 15.12 13.08C15.3 13 15.5 12.98 15.7 13.02C15.76 13.03 15.82 13.05 15.88 13.08C15.94 13.1 16 13.13 16.06 13.17C16.11 13.21 16.16 13.25 16.21 13.29C16.39 13.48 16.5 13.74 16.5 14C16.5 14.26 16.39 14.52 16.21 14.71C16.16 14.75 16.11 14.79 16.06 14.83C16 14.87 15.94 14.9 15.88 14.92C15.82 14.95 15.76 14.97 15.7 14.98C15.63 14.99 15.56 15 15.5 15Z" fill="#FEFFFF"/>
-                    <path d="M8.5 18.5C8.37 18.5 8.24 18.47 8.12 18.42C7.99 18.37 7.89 18.3 7.79 18.21C7.61 18.02 7.5 17.76 7.5 17.5C7.5 17.24 7.61 16.98 7.79 16.79C7.89 16.7 7.99 16.63 8.12 16.58C8.3 16.5 8.5 16.48 8.7 16.52C8.76 16.53 8.82 16.55 8.88 16.58C8.94 16.6 9 16.63 9.06 16.67C9.11 16.71 9.16 16.75 9.21 16.79C9.39 16.98 9.5 17.24 9.5 17.5C9.5 17.76 9.39 18.02 9.21 18.21C9.16 18.25 9.11 18.3 9.06 18.33C9 18.37 8.94 18.4 8.88 18.42C8.82 18.45 8.76 18.47 8.7 18.48C8.63 18.49 8.57 18.5 8.5 18.5Z" fill="#FEFFFF"/>
-                    <path d="M12 18.5002C11.74 18.5002 11.48 18.3902 11.29 18.2102C11.11 18.0202 11 17.7602 11 17.5002C11 17.2402 11.11 16.9802 11.29 16.7902C11.66 16.4202 12.34 16.4202 12.71 16.7902C12.89 16.9802 13 17.2402 13 17.5002C13 17.7602 12.89 18.0202 12.71 18.2102C12.52 18.3902 12.26 18.5002 12 18.5002Z" fill="#FEFFFF"/>
-                    <path d="M15.5 18.5002C15.24 18.5002 14.98 18.3902 14.79 18.2102C14.61 18.0202 14.5 17.7602 14.5 17.5002C14.5 17.2402 14.61 16.9802 14.79 16.7902C15.16 16.4202 15.84 16.4202 16.21 16.7902C16.39 16.9802 16.5 17.2402 16.5 17.5002C16.5 17.7602 16.39 18.0202 16.21 18.2102C16.02 18.3902 15.76 18.5002 15.5 18.5002Z" fill="#FEFFFF"/>
-                  </svg>
+            </div>
+           <div class="contacts">
+             <SectionTitle
+               title="Контактные данные"
+             >
 
+             </SectionTitle>
+               <div class="vswitch">
+                 <v-switch v-model="switch1"
+                           color="#2147AC"
+                 ></v-switch>
+               </div>
+             <div class="switch_text">
+               Показать на сайте
+             </div>
+           </div>
+          <div class="row">
+            <div class="col-xl-4">
+              <div class="input_contacts">
+                <label for="input_contact">Номер телефона</label>
+                <div class="input_father">
+                  <input type="text" id="input_contact" placeholder="Введите номер телефона">
                 </div>
               </div>
+            </div>
+            <div class="col-xl-4">
+              <div class="input_contacts">
+                <label for="input_contact">Дополнительный номер телефона</label>
+                <div class="input_father">
+                  <input type="text" id="input_contact1" placeholder="Введите номер телефона">
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4">
+              <div class="input_contacts">
+                <label for="input_contact">Электронная почта</label>
+                <div class="input_father">
+                  <input type="text" id="input_contact2" placeholder="Введите электронную почту">
+                </div>
+              </div>
+            </div>
+          </div>
+
+            <div class="section_card_border">
+              <div></div>
+            </div>
+            <div class="contacts">
+              <SectionTitle
+                title="График работы"
+              >
+
+              </SectionTitle>
+              <div class="vswitch">
+                <v-switch v-model="switch1"
+                          color="#2147AC"
+                ></v-switch>
+              </div>
+              <div class="switch_text">
+                Показать на сайте
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xl-3">
+                <div class="input_contacts">
+                  <label for="input_contact">Рабочая неделя С</label>
+                  <div class="input_father">
+                    <input type="text" id="input_contact" placeholder="Выберите день">
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3">
+                <div class="input_contacts">
+                  <label for="input_contact">Рабочая неделя ДО</label>
+                  <div class="input_father">
+                    <input type="text" id="input_contact1" placeholder="Выберите день">
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3">
+                <div class="input_contacts">
+                  <label for="input_contact">Обеденный перерыв С</label>
+                  <div class="input_father">
+                    <input type="text" id="input_contact2" placeholder="Введите время">
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3">
+                <div class="input_contacts">
+                  <label for="input_contact">Обеденный перерыв ДО</label>
+                  <div class="input_father">
+                    <input type="text" id="input_contact2" placeholder="Введите время">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="section_card_border">
+              <div></div>
+            </div>
+            <div class="contacts">
+              <SectionTitle
+                title="Основные"
+              >
+
+              </SectionTitle>
+              <div class="vswitch">
+                <v-switch v-model="switch1"
+                          color="#2147AC"
+                ></v-switch>
+              </div>
+              <div class="switch_text">
+                Показать на сайте
+              </div>
+            </div>
+            <div class="museum_lang">
+              <div class="lang_title">
+                Язык:
+              </div>
+              <div class="multuple_lang">
+                <button @click="isActive=!isActive">
+                  Русский
+                  <svg width="8" height="6" viewBox="0 0 8 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M6.58372 1.00017L3.99706 3.58683L1.41039 1.00017C1.28584 0.875331 1.11674 0.805176 0.940391 0.805176C0.764045 0.805176 0.594945 0.875331 0.470391 1.00017C0.210391 1.26017 0.210391 1.68017 0.470391 1.94017L3.53039 5.00017C3.79039 5.26017 4.21039 5.26017 4.47039 5.00017L7.53039 1.94017C7.79039 1.68017 7.79039 1.26017 7.53039 1.00017C7.27039 0.746833 6.84372 0.740166 6.58372 1.00017Z"
+                      fill="#919EAD"/>
+                  </svg>
+                </button>
+                <div class="drop_menu" :class="{'active':isActive}">
+                  <div>
+                    <div>
+                      <button class="active">
+                        <svg width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M3.86337 7.5831L1.55004 5.26976C1.42548 5.14493 1.25638 5.07477 1.08004 5.07477C0.903694 5.07477 0.734593 5.14493 0.610039 5.26976C0.350039 5.52976 0.350039 5.94976 0.610039 6.20976L3.39671 8.99643C3.65671 9.25643 4.07671 9.25643 4.33671 8.99643L11.39 1.9431C11.65 1.6831 11.65 1.2631 11.39 1.0031C11.2655 0.878261 11.0964 0.808105 10.92 0.808105C10.7437 0.808105 10.5746 0.878261 10.45 1.0031L3.86337 7.5831Z"
+                            fill="#3068FE"/>
+                        </svg>
+                        Ўзбекча
+                      </button>
+                    </div>
+                    <div>
+                      <button>
+                        O‘zbekcha
+                      </button>
+                    </div>
+                    <div>
+                      <button>
+                        Русский
+                      </button>
+                    </div>
+                    <div>
+                      <button>English</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xl-6">
+                <div class="input_contacts">
+                  <label for="input_contact">Фамилия</label>
+                  <div class="input_father">
+                    <input type="text" id="input_contact" placeholder="Введите фамилию">
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-6">
+                <div class="input_contacts">
+                  <label for="input_contact">Имя</label>
+                  <div class="input_father">
+                    <input type="text" id="input_contact1" placeholder="Введите имя">
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-6">
+                <div class="input_contacts">
+                  <label for="input_contact">Отчество</label>
+                  <div class="input_father">
+                    <input type="text" id="input_contact2" placeholder="Введите отчество">
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-6">
+                <div class="input_contacts">
+                  <label for="input_contact">Должность</label>
+                  <div class="input_father">
+                    <input type="text" id="input_contact2" placeholder="Введите название должности">
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-12">
+                <div class="input_contacts">
+                  <label for="input_contact">Должность (полная)</label>
+                  <div class="input_father">
+                    <input type="text" id="input_contact2" placeholder="Введите должность">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="section_card_border">
+              <div></div>
+            </div>
+            <div class="contacts">
+              <SectionTitle
+                title="Образование"
+              >
+
+              </SectionTitle>
+              <div class="vswitch">
+                <v-switch v-model="switch1"
+                          color="#2147AC"
+                ></v-switch>
+              </div>
+              <div class="switch_text">
+                Показать на сайте
+              </div>
+            </div>
+            <div>
+              <div class="col-xl-12 p-0">
+                <div class="input_contacts" v-for="(item,index) in input_form">
+                  <label for="input_contact">Образование</label>
+                  <div class="add_input" >
+                    <div class="input_father">
+                      <input type="text" id="input_contact2" placeholder="Введите ВУЗ и годы образования">
+                    </div>
+                    <div>
+                      <button class="add_btn" @click="input_form++" v-if="item==input_form">
+                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M13 8H8V13C8 13.55 7.55 14 7 14C6.45 14 6 13.55 6 13V8H1C0.45 8 0 7.55 0 7C0 6.45 0.45 6 1 6H6V1C6 0.45 6.45 0 7 0C7.55 0 8 0.45 8 1V6H13C13.55 6 14 6.45 14 7C14 7.55 13.55 8 13 8Z" fill="#FEFFFF"/>
+                        </svg>
+                      </button>
+                    </div>
+                    <div>
+                      <button class="add_btn delete_btn" @click="deleteInput()" v-if="item<input_form">
+
+                        <svg width="14" height="18" viewBox="0 0 14 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M9.79 0.29L10.5 1H13C13.55 1 14 1.45 14 2C14 2.55 13.55 3 13 3H1C0.45 3 0 2.55 0 2C0 1.45 0.45 1 1 1H3.5L4.21 0.29C4.39 0.11 4.65 0 4.91 0H9.09C9.35 0 9.61 0.11 9.79 0.29ZM1.00015 16.0002C1.00015 17.1002 1.90015 18.0002 3.00015 18.0002H11.0002C12.1002 18.0002 13.0002 17.1002 13.0002 16.0002V6.00015C13.0002 4.90015 12.1002 4.00015 11.0002 4.00015H3.00015C1.90015 4.00015 1.00015 4.90015 1.00015 6.00015V16.0002ZM4 6H10C10.55 6 11 6.45 11 7V15C11 15.55 10.55 16 10 16H4C3.45 16 3 15.55 3 15V7C3 6.45 3.45 6 4 6Z" fill="#FEFFFF"/>
+                        </svg>
+
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="section_card_border">
+              <div></div>
+            </div>
+
+            <div class="contacts">
+              <SectionTitle
+                title="Государственные награды"
+              >
+
+              </SectionTitle>
+              <div class="vswitch">
+                <v-switch v-model="switch1"
+                          color="#2147AC"
+                ></v-switch>
+              </div>
+              <div class="switch_text">
+                Показать на сайте
+              </div>
+            </div>
+            <div>
+              <div class="col-xl-12 p-0">
+                <div class="input_contacts" v-for="(item,index) in input_form1">
+                  <label for="input_contact">Награда</label>
+                  <div class="add_input" >
+                    <div class="input_father">
+                      <input type="text" id="input_contact2" placeholder="Введите ВУЗ и годы образования">
+                    </div>
+                    <div>
+                      <button class="add_btn" @click="input_form1++" v-if="item==input_form1">
+                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M13 8H8V13C8 13.55 7.55 14 7 14C6.45 14 6 13.55 6 13V8H1C0.45 8 0 7.55 0 7C0 6.45 0.45 6 1 6H6V1C6 0.45 6.45 0 7 0C7.55 0 8 0.45 8 1V6H13C13.55 6 14 6.45 14 7C14 7.55 13.55 8 13 8Z" fill="#FEFFFF"/>
+                        </svg>
+                      </button>
+                    </div>
+                    <div>
+                      <button class="add_btn delete_btn" @click="deleteInput1()" v-if="item<input_form1">
+
+                        <svg width="14" height="18" viewBox="0 0 14 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M9.79 0.29L10.5 1H13C13.55 1 14 1.45 14 2C14 2.55 13.55 3 13 3H1C0.45 3 0 2.55 0 2C0 1.45 0.45 1 1 1H3.5L4.21 0.29C4.39 0.11 4.65 0 4.91 0H9.09C9.35 0 9.61 0.11 9.79 0.29ZM1.00015 16.0002C1.00015 17.1002 1.90015 18.0002 3.00015 18.0002H11.0002C12.1002 18.0002 13.0002 17.1002 13.0002 16.0002V6.00015C13.0002 4.90015 12.1002 4.00015 11.0002 4.00015H3.00015C1.90015 4.00015 1.00015 4.90015 1.00015 6.00015V16.0002ZM4 6H10C10.55 6 11 6.45 11 7V15C11 15.55 10.55 16 10 16H4C3.45 16 3 15.55 3 15V7C3 6.45 3.45 6 4 6Z" fill="#FEFFFF"/>
+                        </svg>
+
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="section_card_border">
+              <div></div>
+            </div>
+            <div class="section_card_border">
+              <div></div>
+            </div>
+            <div class="contacts">
+              <SectionTitle
+                title="Биография"
+              >
+
+              </SectionTitle>
+              <div class="vswitch">
+                <v-switch v-model="switch1"
+                          color="#2147AC"
+                ></v-switch>
+              </div>
+              <div class="switch_text">
+                Показать на сайте
+              </div>
+            </div>
+            <div>
+              <div class="col-xl-12 p-0">
+                <div class="input_contacts">
+                  <label for="input_contact">Биография</label>
+                  <div class="add_input" >
+                    <div class="input_father text_area_input">
+                      <textarea placeholder="Введите ВУЗ и годы образования"></textarea>
+                    </div>
+                  </div>
+                </div>
+                <div class="content_buttons">
+                  <button class="exit">
+                    отмена
+                  </button>
+                  <button class="succes_button">
+                    сохранить
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="section_card_border mb-5">
+              <div></div>
             </div>
           </v-app>
     </div>
@@ -112,7 +425,29 @@ export default {
   data () {
     return {
       switch1: true,
+
+      isActive: false,
+      myImages:[],
+      imageUrl:[],
+      files_name:[],
+      text_main:'',
+      show_text:false,
+      input_form:1,
+      input_form1:1
     }
   },
+  methods:{
+    deleteInput(){
+      if(this.input_form>0){
+        this.input_form--
+      }
+    },
+    deleteInput1(){
+      if(this.input_form1>0){
+        this.input_form1--
+      }
+    }
+  }
+
 }
 </script>
